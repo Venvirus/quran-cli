@@ -1,21 +1,3 @@
-Here is your full, clean, production-style README.md with:
-
-✅ Animated wave banner
-
-✅ Strong branding
-
-✅ Clean structure
-
-✅ 72 Surah clarity
-
-✅ Modern GitHub styling
-
-
-
----
-
-🔥 FULL README (COPY EVERYTHING)
-
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f766e,100:14b8a6&height=140&section=header"/>
 </p>
@@ -31,190 +13,90 @@ Here is your full, clean, production-style README.md with:
 <h1 align="center">🕌 Quran CLI Player</h1>
 
 <p align="center">
-A refined, high-performance Qur’an audio experience built for the terminal —  
-combining speed, elegance, and spiritual utility.
-</p>
-
-<br/>
-
-<p align="center">
-  <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="500"/>
-</p>
-
-<br/>
-
-<p align="center">
-<b>🎧 Audio • 🎨 Animated UI • ⚡ Fast • 🧠 Smart • 📱 Portable</b>
+A lightweight and elegant Qur’an audio player designed for the terminal,  
+focused on performance, clarity, and a smooth listening experience.
 </p>
 
 ---
 
-## ✨ Highlights
+## ✨ Features
 
-- 🎵 Live **audio wave animations**
-- 🔄 **Autoplay** next Surah
-- ⏯️ Pause & Resume support
-- 🌈 Dynamic **color-based UI**
-- ⚡ Lightweight & responsive
-- 🖥️ Works in **Termux / Linux**
-- 🔊 Smooth audio playback via `mpv`
+- 🎧 72 Surahs (Chichewa audio collection)  
+- 🔄 Autoplay next Surah  
+- ⏯️ Pause and resume playback  
+- 🌈 Clean color-based interface  
+- ⚡ Lightweight and fast  
+- 🖥️ Built for Termux and Linux environments  
+- 🔊 High-quality audio playback using `mpv`  
 
 ---
 
 ## ⚠️ Scope
 
-> This version includes **72 Surahs (Chichewa)**  
-> Full Qur’an (114 Surahs) support will be added in future updates.
+This version currently supports **72 Surahs (Chichewa)**.  
+Full Qur’an (114 Surahs) support will be added in future updates.
 
 ---
 
-## 🧭 Controls
+## 🎮 Controls
 
-```text id="full2"
-↑ / ↓     Navigate Surahs
-ENTER     Play selected Surah
-SPACE     Pause / Resume
-n         Next Surah
-q         Quit
-
+- ↑ / ↓ → Navigate Surahs  
+- ENTER → Play selected Surah  
+- SPACE → Pause / Resume  
+- n → Next Surah  
+- q → Quit  
 
 ---
 
-🖥️ Experience
+## ⚙️ Architecture
 
-▶ Playing: Al-Fatiha
-
-▁▂▃▄▅▆▇█▇▆▅▄▃▂▁▂▃▄▅▆▇█
-
-Status: Playing • Smooth • Continuous
-
+- UI Layer → Terminal-based interface  
+- Audio Engine → mpv for playback  
+- Data Source → JSON-based Surah list  
+- Control System → Real-time command handling  
 
 ---
 
-🚀 Quick Start
+## 🚀 Quick Start
 
-git clone https://github.com/VenvirusCreate/quran-cli.git
-cd quran-cli
-
-pkg update && pkg install python mpv -y
-
-python ui.py
-
+1. Clone the repository  
+2. Install dependencies (Python + mpv)  
+3. Run the application using the main script  
 
 ---
 
-⚙️ Architecture
+## 🔮 Roadmap
 
-UI Layer        → curses (terminal interface)
-Animation       → dynamic wave generator
-Audio Engine    → mpv (high-performance)
-Data Source     → quran.json (72 Surahs)
-Control System  → IPC socket (real-time commands)
-
-
----
-
-🎨 UI & Animation
-
-Dynamic wave characters:
-
-▁▂▃▄▅▆▇█
-
-Real-time refresh animation
-
-Color-coded playback states:
-
-🟢 Playing
-
-🟡 Paused
-
-🔵 Selected
-
-
-
+- Full 114 Surah support  
+- Multiple reciters  
+- Offline download mode  
+- Mobile application support  
+- Streaming and cloud integration  
 
 ---
 
-📁 Project Structure
+## 🤝 Contributing
 
-quran-cli/
-├── ui.py          → UI + animations
-├── player.py      → Audio engine
-├── scraper.py     → Audio fetcher
-├── quran.json     → Surah metadata (72 entries)
-├── audio/         → Local audio files
-├── bookmarks/     → Saved positions
-├── quran.sh       → Launcher
+Contributions are welcome. Areas of improvement include:
 
+- UI/UX enhancements  
+- Performance optimization  
+- Feature expansion  
+- Audio quality improvements  
 
 ---
 
-🔮 Roadmap
+## 🤲 Acknowledgment
 
-🌐 Full 114 Surah support
-
-🎙️ Multiple reciters
-
-📥 Offline download mode
-
-📱 Mobile app (Android)
-
-☁️ Streaming server
-
-🔔 Bookmark & resume
-
-🌍 Multi-language UI
-
-
+> “And whoever does good, it is for his own soul…”  
+> — Qur’an 45:15  
 
 ---
-
-🤝 Contributing
-
-Contributions are welcome:
-
-UI/UX improvements
-
-Better animations
-
-Performance optimization
-
-New features
-
-Audio expansion
-
-
-
----
-
-🤲 Spiritual Note
 
 <p align="center">
-<i>
-“And whoever does good, it is for his own soul…”  
-<br/>
-— Qur’an 45:15
-</i>
+<b>Built with intention. Designed for impact. 🕌</b>
 </p>
----
-
-⭐ Support
-
-If this project benefits you:
-
-⭐ Star the repository
-
-📢 Share with others
-
-🤝 Contribute improvements
-
-
-
----
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:14b8a6,100:0f766e&height=120&section=footer"/>
-</p><p align="center">
-<b>Built with intention. Designed for impact. 🕌</b>
 </p>
-```
