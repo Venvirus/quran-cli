@@ -18,24 +18,23 @@ focused on performance, clarity, and a smooth listening experience.
 </p>
 
 
-## ✨ Features
+## Features
 
 - 🎧 72 Surahs (Chichewa audio collection)  
 - 🔄 Autoplay next Surah  
-- ⏯️ Pause and resume playback  
-- 🌈 Clean color-based interface  
+- ⏯️ Pause and resume playback    
 - ⚡ Lightweight and fast  
 - 🖥️ Built for Termux and Linux environments  
 - 🔊 High-quality audio playback using `mpv`  
 
 
-## ⚠️ Scope
+## Scope
 
 This version currently supports **72 Surahs (Chichewa)**.  
 Full Qur’an (114 Surahs) support will be added in future updates.
 
 
-## 🎮 Controls
+## Controls
 
 - ↑ / ↓ → Navigate Surahs  
 - ENTER → Play selected Surah  
@@ -44,7 +43,7 @@ Full Qur’an (114 Surahs) support will be added in future updates.
 - q → Quit  
 
 
-## ⚙️ Architecture
+## Architecture
 
 - UI Layer → Terminal-based interface  
 - Audio Engine → mpv for playback  
@@ -52,14 +51,14 @@ Full Qur’an (114 Surahs) support will be added in future updates.
 - Control System → Real-time command handling  
 
 
-## 🚀 Quick Start
+## Quick Start
 
 1. Clone the repository  
 2. Install dependencies (Python + mpv)  
 3. Run the application using the main script  
 
 
-## 🔮 Roadmap
+## Roadmap
 
 - Supports only 72 Surah
 – Arabic – Chichewa Recitation   
@@ -68,7 +67,7 @@ Full Qur’an (114 Surahs) support will be added in future updates.
 - Streaming and cloud integration  
 
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome. Areas of improvement include:
 
