@@ -1,33 +1,52 @@
-<div align="center">
+<p align="center">
+  <img src="https://img.shields.io/badge/Quran-CLI%20Player-0d9488?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Terminal-Powered-black?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"/>
+</p>
 
-# 🕌 Quran CLI Player
+<br/>
 
-A powerful, elegant, and lightweight Qur’an audio player for the terminal.
+<h1 align="center">🕌 Quran CLI Player</h1>
 
-🎧 Smooth playback • 🎨 Animated UI • ⚡ Fast • 🖥️ Terminal-based
+<p align="center">
+A refined terminal experience for listening to the Qur’an — simple, fast, and beautifully interactive.
+</p>
 
----
+<br/>
 
-</div>
-
-## ✨ Features
-
-- 📖 72 Surahs (Chichewa audio collection)
-- 🔊 High-quality audio playback
-- 🔄 Autoplay next Surah
-- ⏯️ Pause & Resume
-- 🎵 Animated sound waves
-- 🌈 Colorful terminal UI
-- ⚡ Lightweight & fast (Termux/Linux)
-- 🧠 Smart navigation system
+<p align="center">
+  <b>🎧 Audio • 🎨 Visual • ⚡ Fast • 🧠 Intelligent</b>
+</p>
 
 ---
 
-## ⚠️ Important Note
+## ✨ What Makes It Special
 
-> This version currently supports **72 Surahs (Chichewa)**  
-> Full Qur’an (114 Surahs) support can be added in future updates.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/your-image-placeholder.gif" width="600"/>
+</p>
+
+- 🎵 **Live sound wave animation**
+- 🔄 **Automatic next Surah playback**
+- 🎨 **Dynamic color-based UI states**
+- ⚡ **Lightweight & blazing fast**
+- 🖥️ **Works seamlessly in Termux / Linux**
+- 🔊 **High-quality audio playback**
 
 ---
 
-## 🖥️ Preview
+## ⚠️ Current Scope
+
+> This version includes **72 Surahs (Chichewa)**  
+> Full Qur’an (114 Surahs) support is planned for future expansion.
+
+---
+
+## 🎮 Controls
+
+```text id="r10"
+↑ / ↓     Navigate Surahs
+ENTER     Play
+SPACE     Pause / Resume
+n         Next Surah
+q         Quit
