@@ -17,7 +17,6 @@ A lightweight and elegant Qur’an audio player designed for the terminal,
 focused on performance, clarity, and a smooth listening experience.
 </p>
 
----
 
 ## ✨ Features
 
@@ -29,14 +28,12 @@ focused on performance, clarity, and a smooth listening experience.
 - 🖥️ Built for Termux and Linux environments  
 - 🔊 High-quality audio playback using `mpv`  
 
----
 
 ## ⚠️ Scope
 
 This version currently supports **72 Surahs (Chichewa)**.  
 Full Qur’an (114 Surahs) support will be added in future updates.
 
----
 
 ## 🎮 Controls
 
@@ -46,7 +43,6 @@ Full Qur’an (114 Surahs) support will be added in future updates.
 - n → Next Surah  
 - q → Quit  
 
----
 
 ## ⚙️ Architecture
 
@@ -55,7 +51,6 @@ Full Qur’an (114 Surahs) support will be added in future updates.
 - Data Source → JSON-based Surah list  
 - Control System → Real-time command handling  
 
----
 
 ## 🚀 Quick Start
 
@@ -63,17 +58,15 @@ Full Qur’an (114 Surahs) support will be added in future updates.
 2. Install dependencies (Python + mpv)  
 3. Run the application using the main script  
 
----
 
 ## 🔮 Roadmap
 
-- Full 114 Surah support  
-- Multiple reciters  
+- Supports only 72 Surah
+– Arabic – Chichewa Recitation   
 - Offline download mode  
 - Mobile application support  
 - Streaming and cloud integration  
 
----
 
 ## 🤝 Contributing
 
@@ -82,16 +75,17 @@ Contributions are welcome. Areas of improvement include:
 - UI/UX enhancements  
 - Performance optimization  
 - Feature expansion  
-- Audio quality improvements  
+- Audio quality improvements 
+- Multiple reciters
+– Full 114 Surah support
 
----
+
 
 ## 🤲 Acknowledgment
 
 > “And whoever does good, it is for his own soul…”  
 > — Qur’an 45:15  
 
----
 
 <p align="center">
 <b>Built with intention. Designed for impact. 🕌</b>
